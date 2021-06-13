@@ -400,3 +400,7 @@ on property:dev.bootcomplete=1
 
 on property:apexd.status=ready
     symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media.swcodec/lib64/libashmemd_client.so
+
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
