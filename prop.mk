@@ -98,6 +98,7 @@ dev.pm.dyn_samplingrate=1 \
 persist.demo.hdmirotationlock=false \
 persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
+persist.hwc.ptor.enable=true \
 ro.opengles.version=196610 \
 ro.hardware.vulkan=adreno \
 ro.hardware.egl=adreno \
