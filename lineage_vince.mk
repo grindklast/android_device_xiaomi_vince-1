@@ -39,3 +39,6 @@ BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.019/4527419:user/
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
