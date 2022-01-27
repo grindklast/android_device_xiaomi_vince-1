@@ -392,3 +392,9 @@ on property:hw.fm.init=0
 
 on property:hw.fm.init=1
     write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
+
+service nv_mac /vendor/bin/nv_mac
+   class late_start
+   user system
+   group system inet net_admin wifi net_raw
+   oneshot

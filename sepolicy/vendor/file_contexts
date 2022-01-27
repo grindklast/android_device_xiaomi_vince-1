@@ -34,6 +34,9 @@
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# Mac
+/vendor/bin/nv_mac                      u:object_r:wcnss_service_exec:s0
+
 # Powerstats Hal
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.mock                     u:object_r:hal_power_stats_default_exec:s0
 
