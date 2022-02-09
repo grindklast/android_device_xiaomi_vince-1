@@ -43,7 +43,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# NusantaraPapers
-PRODUCT_PACKAGES += \
-    NusantaraPapers
