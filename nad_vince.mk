@@ -43,3 +43,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Launcher
+TARGET_LAUNCHER := lawnchair
