@@ -9,9 +9,7 @@ r_dir_file(system_app sysfs_zram)
 
 # Battery Health
 allow system_app sysfs_battery_supply:dir { search };
-allow system_app sysfs_battery_supply:file { read };
-allow system_app sysfs_battery_supply:file { open };
-allow system_app sysfs_battery_supply:file { getattr };
+allow system_app sysfs_battery_supply:file { read open getattr };
 
 # XiaomiParts
 allow system_app kcal_dev:dir search;
