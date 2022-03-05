@@ -24,10 +24,3 @@ ro.telephony.default_network=22,22
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
 ro.zram.periodic_wb_delay_hours=24
-
-# Trim properties
-persist.sys.fw.use_trim_settings=true
-persist.sys.fw.empty_app_percent=50
-persist.sys.fw.trim_empty_percent=100
-persist.sys.fw.trim_cache_percent=100
-persist.sys.fw.trim_enable_memory=1073741824

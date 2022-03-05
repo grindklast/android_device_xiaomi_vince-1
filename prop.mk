@@ -186,11 +186,7 @@ vendor.video.disable.ubwc=1
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.dex2oat_thread_count=8 \
 debug.qcom_ignore_qperf=true \
-debug.qcom_ignore_uxperf=true \
-ro.vendor.qti.sys.fw.bservice_enable=true \
-ro.vendor.qti.sys.fw.bservice_limit=5 \
-ro.vendor.qti.sys.fw.bservice_age=5000 \
-vendor.perf.gestureflingboost.enable=true
+debug.qcom_ignore_uxperf=true
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -253,14 +249,6 @@ persist.vendor.delta_time.enable=true
 # Tcp
 PRODUCT_PROPERTY_OVERRIDES += \
 net.tcp.2g_init_rwnd=10
-
-# Trim properties
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.qti.sys.fw.use_trim_settings=true \
-ro.vendor.qti.sys.fw.empty_app_percent=50 \
-ro.vendor.qti.sys.fw.trim_empty_percent=100 \
-ro.vendor.qti.sys.fw.trim_cache_percent=100 \
-ro.vendor.qti.sys.fw.trim_enable_memory=1073741824
 
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
