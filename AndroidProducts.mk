@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_vince.mk
+    $(LOCAL_DIR)/nad_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_vince-user \
-    derp_vince-userdebug \
-    derp_vince-eng
+    nad_vince-user \
+    nad_vince-userdebug \
+    nad_vince-eng
