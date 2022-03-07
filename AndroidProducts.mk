@@ -21,4 +21,6 @@ COMMON_LUNCH_CHOICES := \
     nad_vince-user \
     nad_vince-userdebug \
     nad_vince-eng \
-    vince-userdebug
+    vince-user \
+    vince-userdebug \
+    vince-eng
