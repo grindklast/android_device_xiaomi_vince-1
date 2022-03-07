@@ -39,7 +39,7 @@ NAD_BUILD_TYPE := OFFICIAL
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := nad_vince
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
