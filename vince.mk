@@ -1,24 +1,14 @@
 #
-# Copyright 2018 The Android Open Source Project
+# Copyright (C) 2022 xdroidsp
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit Octavi product configuration
-$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
+# Inherit xdroidsp product configuration
+$(call inherit-product, device/xiaomi/vince/xdroid_vince.mk)
 
-# Remove Octavi prefix from product name
+# Remove xdroidsp prefix from product name
 PRODUCT_NAME := vince
 
-# Identify Octavi Device identifier
-OCTAVI_BUILD := vince
+# Identify xdroidsp Device identifier
+XDROID_BUILD := vince
